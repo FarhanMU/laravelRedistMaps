@@ -37,8 +37,7 @@
     <input id="latitude" placeholder="Latitude">
     <input id="longitude" placeholder="Longitude">
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9Af5mmxZWwSSYK-9HGwPzxQwcQ8io5jc&callback=initMap"
-        async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap" async defer></script>
     <script>
         let map, marker;
         function initMap() {
